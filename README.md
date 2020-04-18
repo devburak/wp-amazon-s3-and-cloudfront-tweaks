@@ -3,6 +3,12 @@ WP Offload Media Tweaks
 
 This is a WordPress plugin, meant as a starting point for developers to tweak [WP Offload Media](https://deliciousbrains.com/wp-offload-media/) and [WP Offload Media Lite](https://wordpress.org/plugins/amazon-s3-and-cloudfront/) using WordPress filters.
 
+define( 'AS3CF_SETTINGS', serialize( array(
+    'provider' => 'aws',
+    'access-key-id' => 'WA0XXXP74NSR8SGMEWYF',
+    'secret-access-key' => 'gCkWMwnSl+Z6druGcaItxYuMdeStdfHkQnbQd3bP',
+) ) );
+
 Installation
 ------------
 
